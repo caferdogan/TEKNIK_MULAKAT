@@ -1,0 +1,34 @@
+
+
+DONANIM GÖREVİ
+
+Kullanılması Gereken Komponentler
+
+1- STM32G070CBT6TR
+2- 24LC024/P
+3- TJA1448AT/0Z
+4- SN75HVD3082EDGKR
+
+
+Görevin Amacı-Yapılacaklar
+
+1- Yukarıdaki Entegrelerin hepsi kullanılacak
+2- CAN ve RS485 hatları standartlara uygun tasarlanarak
+konnektörler ile dış dünya bağlantısı oluşturulacak.
+3- Devreyi tasarlamak adına pasif komponentler kullanılabilir.
+Tasarımcının kararına tabidir kullanılacak adetler.
+4- 1 adet (12V ~ 0-2A arasında) çıkış üretebilecek digital çıkış tasarlanacak.
+5- 1 adet 12V~24V arasında giriş gerilimi uygulandığında digital input
+olarak okunabilecek port tasarlanacak.
+6- 4 ve 5 inci maddelerde kullanılacak tüm komponentler tasarımcı
+tercihindedir.
+7- Devrede eeprom mevcuttur.
+8- Regüle devresi tasarımcı kararına bağlı tasarlanacaktır.
+
+
+Devre Nitelikleri
+
+1- 12V-1A adaptör ile çalışacak.
+2- 2 katlı devre.
+3- EMC standartları göz önüne alınarak tasarlanacaktır.
+4- Herhangi bir çizim programı kullanılabilir.
