@@ -32,3 +32,4 @@ Devre Nitelikleri
 2- 2 katlı devre.
 3- EMC standartları göz önüne alınarak tasarlanacaktır.
 4- Herhangi bir çizim programı kullanılabilir.
+5- Devre 8x6 cm dikdörtgen şekilde tasarlanacaktır.
