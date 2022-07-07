@@ -1,0 +1,124 @@
+
+/*--- SORU 1 ---*/
+
+#include<stdio.h>
+
+int main()
+{
+	char C = 0;
+	int A = 5, B= 2;
+	
+	for(k=0; k<10 ; k++)
+		{
+			C = A + B + C;
+		}
+	printf("total : %d" , C);
+}
+
+// YUKARIDAKI KODDAKİ EKSİKLİKLERİ ve
+// KOD ÇIKTISINI YAZARAK AÇIKLAYINIZ.
+
+
+
+
+/*--- SORU 2 ---*/
+
+#include<stdio.h>
+
+void Tfunc()
+{
+	int A=0;
+	++A;
+	printf("%d",A);
+} 
+
+int main()
+{
+	int A=10;
+	Tfunc();
+	Tfunc();
+	Tfunc();
+	printf("%d",A);
+	return 0;
+}
+
+// YUKARIDAKI KODDA VARSA EKSİKLİKLERİ ve
+// KOD ÇIKTISINI YAZARAK AÇIKLAYINIZ.
+
+
+
+
+/*--- SORU 3 ---*/
+enum ROUT
+{
+	INIT0,
+	DEVNAME,
+	SEARCH,
+	SENDSTAT,
+	FINISH
+};
+
+void xROUT(void)
+{
+    switch(currSTAT)
+		{
+			case INIT0:
+				S_INIT0();
+				break ;
+			case SEARCH:
+				S_SEARCH();
+				break ;						
+			case DEVNAME:
+				S_DEVNAME();
+				break ;
+			case SENDSTAT:
+				S_SENDSTAT();
+				break ;
+			case FINISH:
+				return ;
+			default:
+				break ;
+		}
+
+    return ;
+}
+// YUKARIDAKI KODUN CALISABİLMESİ İCİN TANIMLANMASI GEREKENLER
+// ve KODDAKİ MANTIK HATALARINI BELİRTİNİZ
+
+
+
+
+
+/*--- SORU 4 ---*/
+#include <stdio.h>
+int arr[] = {1,2,3};
+void main()
+{
+    int *ptr; 
+    ptr = arr;
+    ptr = ptr+3;
+    printf("%d",*ptr);
+} 
+
+// YUKARIDAKI KODUN ÇIKIŞ VERİSİ NEDİR
+// SEBEBİNİ AÇIKLAYINIZ.
+
+
+
+
+/*--- SORU 5 ---*/
+uint8_t CHR_ARRAY_1[]={0x02, 0x05, 0x12, 0x0A};
+uint8_t CHR_ARRAY_2[]={0x02, 0x05, 0x15, 0x0A};
+
+void main()
+{
+	
+}
+
+
+// CHR_ARRAY_1 ve CHR_ARRAY_2 dizilerinin birbirlerine eşit olup olmadıklarını
+// anlayabileceğimiz ve dizi boyutlarını print eden fonksiyonu yazıp 
+// MAIN fonksiyonunda uygun şekilde çağırarak bu değerleri print ediniz.
+
+
+
